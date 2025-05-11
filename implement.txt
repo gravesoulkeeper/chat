@@ -1,0 +1,85 @@
+my-chat-app/
+├── public/
+│   ├── favicon.ico
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── styles/
+│   │   └── ...
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── SignInForm.jsx
+│   │   │   ├── SignUpForm.jsx
+│   │   │   └── ...
+│   │   ├── FriendsList.jsx
+│   │   ├── MessageList.jsx
+│   │   ├── RequestList.jsx
+│   │   ├── ProfileView.jsx
+│   │   └── SearchResults.jsx
+│   ├── pages/
+│   │   ├── Friends.jsx
+│   │   ├── Messages.jsx
+│   │   ├── Search.jsx
+│   │   ├── Requests.jsx
+│   │   ├── Profile.jsx
+│   │   ├── Home.jsx
+│   │   ├── SignIn.jsx
+│   │   ├── SignUp.jsx
+│   │   └── ...
+│   ├── store/
+│   │   ├── friends.js
+│   │   ├── messages.js
+│   │   ├── requests.js
+│   │   ├── profile.js
+│   │   ├── search.js
+│   │   └── index.js
+│   ├── router/
+│   │   └── index.jsx
+│   ├── utils/
+│   │   ├── api.js
+│   │   └── helpers.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── ...
+
+
+ffhvu34984
+
+
+start "" /d "C:\Windows\System32" cmd.exe /k
+
+runas /user:Administrator "cmd.exe"
+
+
+
+AdGuard has prevented this page from loading due to the following filter rule
+.com/api/users?token=*&uuid=&pii=&in=false^$document
+
+https://rapidapi.com/hub
+
+
+
+
+//Database folder structure
+chatApp
+├── Users
+│   ├── { _id, username, email, password, friends, profilePicture, createdAt }
+├── Messages
+│   ├── { _id, senderId, receiverId, groupId, content, timestamp }
+├── Groups (optional)
+│   ├── { _id, groupName, members, messages, createdAt }
+└── FriendRequests (optional)
+    ├── { _id, senderId, receiverId, status, createdAt }
+
+
+
+
+
