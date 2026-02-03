@@ -10,8 +10,7 @@ import { user } from './context/profile'
 
 function App() {
 
-  const ip = "http://localhost:3000"
-
+  const ip = import.meta.env.VITE_API_URL;
   const socket = useMemo(() => io(`${ip}`, { transports: ['websocket'] }), []);
   const [profile, setProfile] = useState([])
 
@@ -45,4 +44,4 @@ function App() {
   )
 }
 
-export default App 
+export default App

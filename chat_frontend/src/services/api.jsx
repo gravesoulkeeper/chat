@@ -1,6 +1,4 @@
-// const myIp = "http://192.168.0.106:3000"  //"http://192.168.0.104:3000"
-const myIp = ""
-const ip = myIp ? myIp : "http://localhost:3000"
+const ip = import.meta.env.VITE_API_URL;
 
 const isLoggedIn = async () => {
     try {
